@@ -1,0 +1,552 @@
+.bod {
+  margin: 0;
+  width: 100%;
+}
+body{
+  background: url("./media/img/bmwm8.png") no-repeat center ;
+}
+header {
+  background-color:#000000;
+  width: 100%;
+  height: 180px;
+}
+
+header h1 {
+  display: block;
+  text-align: center;
+  margin: 0%;
+  position: relative;
+  top: 40px;
+  font-family: tenor sans;
+  color: white;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  margin-right: 5%;
+  margin-top: 100px;
+}
+header ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Montserrat;
+  padding: 10px;
+  margin-left: 20px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  border: #ffffff solid 1px;
+  transition: 0.3s;
+}
+header ul li a:hover {
+  background-color: black;
+  border: solid white 1px;
+  color: #fff;
+}
+.searchbar {
+  width: 2.7%;
+  margin-left: 48%;
+  margin-right: 45%;
+  margin-top: -50px;
+  transition: 0.5s;
+}
+.search {
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 0%;
+  padding-left: 12%;
+  display: block;
+  height: 29px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: Montserrat;
+  caret-color: white;
+  text-indent: 10px;
+  color: white;
+  transition: 0.5s;
+}
+button {
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  border-radius: 20px;
+  display: block;
+  margin-top: -36px;
+  margin-left: 0%;
+  background-color: white;
+  position: absolute;
+  transition: 0.5s;
+}
+button img {
+  width: 40px;
+  margin: -3px 0 0 -7px;
+}
+.searchbar:hover {
+  width: 23%;
+  margin-left: 39%;
+}
+button:hover {
+  background-color: white;
+}
+body {
+  background-color: rgb(241, 241, 241);
+}
+.porsche {
+  width: 100%;
+}
+.porschelogo {
+  width: 30%;
+  aspect-ratio: 16/6;
+  object-fit: cover;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.porschecontent {
+  width: 40%;
+  text-align: center;
+  float: right;
+}
+.porsche h2 {
+  color: black;
+  font-family: Comfortaa;
+}
+.porsche p {
+  font-family: Comfortaa;
+  text-align: left;
+  line-height: 25px;
+  color: rgb(49, 49, 49);
+}
+.porscheimg {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 100px;
+  animation: porsche linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 45%;
+}
+.first {
+  margin-top: 300px;
+  width: 100%;
+  display: flex;
+}
+.first .tops {
+  font-size: 30px;
+  font-family: comfortaa;
+  margin-top: -120px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+.bmwsp {
+  width: 20%;
+  margin-left: 4%;
+  background-color: white;
+  display: block;
+  height: 470px;
+  box-shadow: 0 0 10px 0px rgb(173, 173, 173);
+  transition: 0.3s;
+}
+.bmwsp:hover {
+  margin-top: -15px;
+}
+.bmwsp h2 {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3%;
+}
+.bmwsp p {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.bmwsp h4 {
+  font-size: 13px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  width: 40%;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin-left: 37%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border: solid 2px red;
+  transition: 0.3s;
+}
+.bmwsp h4:hover {
+  border: solid 2px red;
+  color: red;
+  background-color: white;
+}
+.golf7sp {
+  width: 20%;
+  margin-left: 4%;
+  background-color: white;
+  display: block;
+  height: 470px;
+  box-shadow: 0 0 10px 0px rgb(173, 173, 173);
+  transition: 0.3s;
+}
+.golf7sp:hover {
+  margin-top: -15px;
+}
+.golf7sp h2 {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3%;
+  margin-top: 33px;
+}
+.golf7sp p {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.golf7sp h4 {
+  font-size: 13px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  width: 40%;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin-left: 37%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border: solid 2px red;
+  transition: 0.3s;
+}
+.golf7sp h4:hover {
+  border: solid 2px red;
+  color: red;
+  background-color: white;
+}
+.golfws {
+  width: 20%;
+  margin-left: 4%;
+  background-color: white;
+  display: block;
+  height: 470px;
+  box-shadow: 0 0 10px 0px rgb(173, 173, 173);
+  transition: 0.3s;
+}
+.golfws:hover {
+  margin-top: -15px;
+}
+.golfws h2 {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3%;
+}
+.golfws p {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.golfws h4 {
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  width: 40%;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin-left: 37%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  border: solid 2px red;
+  transition: 0.3s;
+}
+.golfws h4:hover {
+  border: solid 2px red;
+  color: red;
+  background-color: white;
+}
+img {
+  width: 100%;
+}
+.ambientlight1 {
+  width: 20%;
+  margin-left: 4%;
+  background-color: white;
+  display: block;
+  height: 470px;
+  box-shadow: 0 0 10px 0px rgb(173, 173, 173);
+  transition: 0.3s;
+}
+.ambientlight1:hover {
+  margin-top: -15px;
+}
+.ambientlight1 h2 {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3%;
+  margin-top: 110px;
+}
+.ambientlight1 p {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.ambientlight1 h4 {
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  width: 40%;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin-left: 37%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  border: solid 2px red;
+  transition: 0.3s;
+}
+.ambientlight1 h4:hover {
+  border: solid 2px red;
+  color: red;
+  background-color: white;
+}
+.bmwm8f {
+  width: 50%;
+  margin-left: -20%;
+  animation: porsche linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.spoilers{
+    width: 100%;
+    display: flex;
+}
+.BS1{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    font-family: Comfortaa;
+}
+
+.spoilers div{
+    width: 19%;
+    margin: 2% 1% 0 1%;
+    height: 430px;
+    background-color: #fff;
+    box-shadow: rgb(119, 119, 119) 0 0 15PX -1PX;
+    transition: 0.5s;
+}
+
+.spoilers div:hover{
+    margin-top: 1%;
+}
+
+.Porsche-spoiler h2{
+    font-family: Comfortaa;
+    margin-left: 10PX;
+}
+.Porsche-spoiler h3{
+    font-family: Comfortaa; 
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 7px;
+    width: 55%;
+    text-align: center;
+    margin: 17% 0 0 35% ;
+    transition: 0.3s;
+}
+
+.Porsche-spoiler h3:hover{
+    background-color: #000000;
+    border: #000000 1px solid;
+    color: #fff;
+}
+
+.A45S-spoiler h2{
+    font-family: Comfortaa;
+    margin-left: 10PX;
+    width: 95%;
+    margin-top: 38px;
+}
+.A45S-spoiler h3{
+    font-family: Comfortaa; 
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 7px;
+    width: 55%;
+    text-align: center;
+    margin: 17% 0 0 35% ;
+    transition: 0.3s;
+}
+
+.A45S-spoiler h3:hover{
+    background-color: #000000;
+    border: #000000 1px solid;
+    color: #fff;
+}
+
+.GOLF8-spoiler h2{
+    font-family: Comfortaa;
+    margin-left: 10PX;
+    margin-top: 85px;
+}
+.GOLF8-spoiler h3{
+    font-family: Comfortaa; 
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 7px;
+    width: 55%;
+    text-align: center;
+    margin: 17% 0 0 35% ;
+    transition: 0.3s;
+}
+
+.GOLF8-spoiler h3:hover{
+    background-color: #000000;
+    border: #000000 1px solid;
+    color: #fff;
+}
+
+.M135I-spoiler h2{
+    font-family: Comfortaa;
+    margin-left: 10PX;
+}
+.M135I-spoiler h3{
+    font-family: Comfortaa; 
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 7px;
+    width: 55%;
+    text-align: center;
+    margin: 17% 0 0 35% ;
+    transition: 0.3s;
+}
+
+.M135I-spoiler h3:hover{
+    background-color: #000000;
+    border: #000000 1px solid;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    margin-top: 100PX;
+    margin-bottom:-50px;
+    height: 250px;
+}
+
+footer div img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+footer div h3{
+  color: #cccccc;
+  margin-left: 10px;
+  font-family: Montserrat;
+}
+
+footer div{
+  display:flex;
+  width: 40%;
+  margin: 0px 0 0 150px;
+}
+footer p{
+  color: #9e9e9e;
+  margin-top: -130px;
+  text-align: right;
+  margin-right: 200px;
+  font-size: 20px;
+}
+
+.login button{
+  width: 4%;
+  margin-top: 128px;
+  margin-left: 50px;
+  color: #000000;
+}
+
+.login button a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.loginpage{
+  height: 400px;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgb(48, 58, 88);
+  width: 90%;
+  box-shadow: 0 0 15px -1px rgb(145, 145, 145);
+}
+.loginpage input{
+  border-radius: 25px;
+  margin-left: 20px;
+  font-size: 20px;
+  background-color: rgb(36, 36, 66);
+  border: solid 1px white;
+  color: #fff;
+}
+.loginpage h6{
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom:10px ;
+  font-family: sans-serif;
+}
+.loginpage a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  margin: 30px 0 0 20px;
+  margin-top: 10px;
+  font-family:sans-serif;
+  
+}
+.log{
+  border: #fff 1px solid;
+  padding: 5px 20px 5px 20px;
+  color: #fff;
+}
+input[type="submit"]{
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
